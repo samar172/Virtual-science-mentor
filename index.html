@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Science Fair Mentor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Virtual Science Fair Mentor</h1>
+        <p>Get help with your science fair project!</p>
+    </header>
+
+    <main>
+        <section id="project-ideas">
+            <h2>Project Idea Generation</h2>
+            <p>Tell us your interests, and we'll suggest some project ideas.</p>
+            <textarea id="interest-input" placeholder="Enter your science interests (e.g., biology, physics, chemistry)"></textarea>
+            <button id="generate-ideas-btn">Generate Ideas</button>
+            <div id="project-ideas-output">
+                </div>
+        </section>
+
+        <section id="experiment-guidance">
+            <h2>Experiment Guidance</h2>
+            <p>Get step-by-step guidance for your chosen project.</p>
+            <input type="text" id="project-title-input" placeholder="Enter your project title">
+            <button id="get-guidance-btn">Get Guidance</button>
+            <div id="guidance-output">
+                </div>
+        </section>
+
+        <section id="science-database-search">
+            <h2>Science Database Search</h2>
+            <p>Explore our science database for relevant information.</p>
+            <input type="text" id="database-query-input" placeholder="Enter your search term">
+            <button id="search-database-btn">Search</button>
+            <div id="database-results-output">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Virtual Science Fair Mentor</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
